@@ -1,26 +1,94 @@
+/* Basic settings for the whole page */
 body {
-    font-family: sans-serif;
-    margin: 20px;
-    line-height: 1.5;
+ font-family: Arial, sans-serif;
+ margin: 0;
+ background-color: #f4f4f4;
+ color: #333;
 }
 
+/* Header */
+header {
+ background-color: #222;
+ color: white;
+ text-align: center;
+ padding: 25px;
+}
+
+/* Navigation menu */
 nav {
-    background-color: #eee;
-    padding: 10px;
+ background-color: #444;
+ text-align: center;
+ padding: 12px;
 }
 
 nav a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #333;
+ color: white;
+ text-decoration: none;
+ margin: 0 15px;
+ font-size: 18px;
 }
 
+nav a:hover {
+ color: #ffcc00;
+}
+
+/* Sections */
 section {
-    margin-top: 30px;
+ padding: 40px 20px;
+ text-align: center;
 }
 
-.project {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-top: 10px;
+.hero {
+ background-color: #e6f2ff;
+ padding: 70px 20px;
+}
+
+/* Project boxes */
+.project-box {
+ background-color: white;
+ width: 300px;
+ max-width: 90%;
+ display: inline-block;
+ margin: 10px;
+ padding: 15px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ vertical-align: top;
+}
+
+/* Contact form */
+form {
+ width: 350px;
+ max-width: 100%;
+ margin: 0 auto;
+ text-align: left;
+}
+
+input, textarea {
+ width: 100%;
+ padding: 8px;
+ box-sizing: border-box;
+ border: 1px solid #999;
+ border-radius: 4px;
+}
+
+button {
+ background-color: #222;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #555;
+}
+
+/* Footer */
+footer {
+ background-color: #222;
+ color: white;
+ text-align: center;
+ padding: 15px;
 }
